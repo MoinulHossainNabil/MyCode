@@ -7,8 +7,8 @@ def push(x):
     print("Push Performed",l)
 def pop():
     global top
-    top=top-1
     l.remove(l[top])
+    top=top-1
     print("Pop performed",l)
 push(2)
 push(3)
