@@ -7,9 +7,12 @@ def push(x):
     print("Push Performed",l)
 def pop():
     global top
-    l.remove(l[top])
-    top=top-1
-    print("Pop performed",l)
+    if(top<0):
+        print("Stack is empty so popping can't be performed")
+    else:
+        l.remove(l[top])
+        top=top-1
+        print("Pop performed",l)
 push(2)
 push(3)
 push(4)
