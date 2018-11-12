@@ -10,13 +10,13 @@ def bmi(name,weight,height):
     if(result>30):
         print(name,"BMI=",result,": Obese")
     
-nabil=['Nabil',60,5.6]
-keya=['Keya',70,5.5]
-zahid=['Zahid',60,6.0]
-zawad=['Zawad',75,5.6]
-mahin=['Mahin',70,5.7]
-bmi(*nabil)
-bmi(*keya)
-bmi(*zahid)
-bmi(*zawad)
-bmi(*mahin)
+person1=['Arya',60,5.6]
+person2=['Snasa',70,5.5]
+person3=['Khalessi',60,6.0]
+person4=['Mergery',75,5.6]
+person5=['Cersy',70,5.7]
+bmi(*person1)
+bmi(*person2)
+bmi(*person3)
+bmi(*person4)
+bmi(*person5)
