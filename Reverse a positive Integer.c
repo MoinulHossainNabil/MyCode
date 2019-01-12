@@ -4,18 +4,13 @@
 
 int main()
 {
-    int n,r,i,flag=0;
+    int n,r,i,rev=0;
     scanf("%d",&n);
-    int a[10];
     while(n>0){
         r=n%10;
-        a[flag]=r;
-        flag++;
+        rev=r*10+rev;
         n=n/10;
     }
-    for(i=0;i<flag;i++){
-            if(a[i]==0)continue;
-        printf("%d",a[i]);
-    }
+    printf("%d",rev);
     return 0;
 }
